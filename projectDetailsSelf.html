@@ -1,0 +1,155 @@
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:0in;line-height:normal;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">These are some self-learning projects done using AWS free account</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<div style='margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+    <ol style="margin-bottom:0in;list-style-type: undefined;">
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;"><strong>Yahoo Finance API&rsquo;s to extract historical Stock specific details &amp; find anomalies using AWS Lambda</strong></span></li>
+    </ol>
+</div>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<div style='margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+    <ol style="margin-bottom:0in;list-style-type: circle;margin-left:0.5in;">
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">Project Workflow</span></li>
+    </ol>
+</div>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;text-indent:.5in;'><span style="font-size: 15px;">&nbsp;</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;text-indent:.5in;'><span style="font-size: 15px;">Yahoo API -&gt; EC2 -&gt; Kinesis -&gt; Lambda -&gt;SNS &amp; DynamoDB</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<ol style="list-style-type: circle;">
+    <li><span style="font-size: 15px;">Project Workflow Created:</span>
+        <ul style="list-style-type: square;">
+            <li><span style="font-size: 15px;">Extracted historical finance data using python and yahoo finance API in EC2</span></li>
+            <li><span style="font-size: 15px;">Cleaned and formatted the data using Pandas</span></li>
+            <li><span style="font-size: 15px;">Automated Role creation</span></li>
+            <li><span style="font-size: 15px;">Streams data to AWS streaming solution &ndash; Kinesis</span></li>
+            <li><span style="font-size: 15px;">Python code to detect anomalies using serverless tech &ndash; AWS Lambda</span></li>
+            <li><span style="font-size: 15px;">Notification of anomalies to user using SNS&nbsp;</span></li>
+            <li><span style="font-size: 15px;">Addition of anomaly data into AWS dynamo DB</span></li>
+        </ul>
+    </li>
+</ol>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:1.0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<ol style="list-style-type: circle;">
+    <li><span style="font-size: 15px;">Skills Used:</span>
+        <ul style="list-style-type: square;">
+            <li><span style="font-size: 15px;">Python with Yahoo Finance API</span></li>
+            <li><span style="font-size: 15px;">Python with AWS API boto3</span></li>
+            <li><span style="font-size: 15px;">Pandas for data analysis management</span></li>
+            <li><span style="font-size: 15px;">Performed all the above on python and AWS cloudformation</span></li>
+        </ul>
+    </li>
+</ol>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:1.0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<ol style="list-style-type: circle;">
+    <li><span style="font-size: 15px;">Github link</span>
+        <ul style="list-style-type: square;">
+            <li><span style="font-size: 15px;"><a href="https://github.com/kiranholla84/Stock_price_anomaly_yfinance_python_aws_boto3">Link</a></span></li>
+        </ul>
+    </li>
+</ol>
+<p><span style="font-size: 15px;">==================================================================================================================================================</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;2. <strong>Yahoo Finance API&rsquo;s to extract historical Stock specific details &amp; find anomalies (using cloudformation and code deploy)</strong></span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<div style='margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+    <ol style="margin-bottom:0in;list-style-type: circle;margin-left:0.5in;">
+        <li style='margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">Project Workflow</span></li>
+    </ol>
+</div>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;text-indent:.5in;'><span style="font-size: 15px;"><img src="data:image/png;base64,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"><br></span></p>
+<table style="float: left">
+    <tbody>
+        <tr>
+            <td><span style="font-size: 15px;"><br></span></td>
+            <td><span style="font-size: 15px;"><br></span></td>
+            <td><span style="font-size: 15px;"><br></span></td>
+            <td><span style="font-size: 15px;"><br></span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 15px;"><br></span></td>
+            <td rowspan="3" style="vertical-align: top;"><span style="font-size: 15px;"><br></span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 15px;"><br></span></td>
+            <td><span style="font-size: 15px;"><br></span></td>
+            <td style="vertical-align: top;"><span style="font-size: 15px;"><br></span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 15px;"><br></span></td>
+        </tr>
+    </tbody>
+</table>
+<p><span style="font-size: 15px;">&nbsp;</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;text-indent:.5in;'><span style="font-size: 15px;">Yahoo API -&gt; EC2 -&gt; Kinesis -&gt; Lambda -&gt;SNS &amp; DynamoDB</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;text-indent:.5in;'><span style="font-size: 15px;">&nbsp;</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;text-indent:.5in;'><span style="font-size: 15px;">&nbsp;</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;text-indent:.5in;'><span style="font-size: 15px;">All Above created using AWS Cloudformation</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;text-indent:.5in;'><span style="font-size: 15px;">Code deployed using AWS Codedeploy</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;text-indent:.5in;'><span style="font-size: 15px;">Github link has the template used to do the above</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<ol style="list-style-type: circle;">
+    <li><span style="font-size: 15px;">Project Workflow Created:</span>
+        <ul style="list-style-type: square;">
+            <li><span style="font-size: 15px;">AWS cloudformation template run using desktop. Infra is created at this point</span></li>
+            <li><span style="font-size: 15px;">Code uploaded via S3</span></li>
+            <li><span style="font-size: 15px;">Used CodeDeploy to run the application on EC2 created in first step</span>
+                <ol style="list-style-type: lower-alpha;">
+                    <li><span style="font-size: 15px;">Application extracts historical finance data using python and yahoo finance API in EC2</span></li>
+                    <li><span style="font-size: 15px;">Application cleans and formats the data using Pandas</span></li>
+                </ol>
+            </li>
+        </ul>
+    </li>
+</ol>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:1.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<ul style="list-style-type: square;">
+    <li><span style="font-size: 15px;">Python code to detect anomalies using serverless tech &ndash; AWS Lambda launched automatically</span></li>
+    <li><span style="font-size: 15px;">Notification of anomalies to user using SNS&nbsp;</span></li>
+    <li><span style="font-size: 15px;">Addition of anomaly data into AWS dynamo DB</span></li>
+</ul>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:1.0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<ol style="list-style-type: circle;">
+    <li><span style="font-size: 15px;">Skills Used:</span>
+        <ul style="list-style-type: square;">
+            <li><span style="font-size: 15px;">Python with Yahoo Finance API</span></li>
+            <li><span style="font-size: 15px;">Python with AWS API boto3</span></li>
+            <li><span style="font-size: 15px;">Pandas for data analysis management</span></li>
+            <li><span style="font-size: 15px;">Performed all the above on python and AWS cloudformation</span></li>
+        </ul>
+    </li>
+</ol>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:1.0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<ol style="list-style-type: circle;">
+    <li><span style="font-size: 15px;">Github link&nbsp;</span>
+        <ul style="list-style-type: square;">
+            <li><span style="font-size: 15px;"><a href="https://github.com/kiranholla84/Stock_price_anomaly_yfinance_python_aws_CloudFormation">Link</a></span></li>
+        </ul>
+    </li>
+</ol>
+<p><span style="font-size: 15px;">==================================================================================================================================================</span></p>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;"><strong>&nbsp;3. Access control and data aggregator in Mongodb</strong></span></p>
+<ol style="list-style-type: circle;">
+    <li><span style="font-size: 15px;">Project Workflow Created</span>
+        <ul style="list-style-type: square;">
+            <li><span style="font-size: 15px;">Added permissions to users, devices to access existing database</span></li>
+            <li><span style="font-size: 15px;">Extracted existing data from DB (per 10 minute collection) and created a new table based on aggregated data (1 day average)</span></li>
+            <li><span style="font-size: 15px;">Aggregated data consists of min/max/average of the day&rsquo;s collection</span></li>
+        </ul>
+    </li>
+</ol>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:1.0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<ol style="list-style-type: circle;">
+    <li><span style="font-size: 15px;">Skills Used</span>
+        <ul style="list-style-type: square;">
+            <li><span style="font-size: 15px;">Python with OOP</span></li>
+            <li><span style="font-size: 15px;">Programming with MongoDB</span></li>
+            <li><span style="font-size: 15px;">Data aggregation in MongoDB</span></li>
+        </ul>
+    </li>
+</ol>
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:1.0in;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size: 15px;">&nbsp;</span></p>
+<ol style="list-style-type: circle;">
+    <li><span style="font-size: 15px;">Github Link</span>
+        <ul style="list-style-type: square;">
+            <li><a href="https://github.com/kiranholla84/Access-control-and-data-aggregator-in-Mongodb"><span style="font-size: 15px;">link</span></a></li>
+        </ul>
+    </li>
+</ol>
